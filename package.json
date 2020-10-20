@@ -1,0 +1,21 @@
+{
+  "name": "csv-parser",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "bin": {
+    "parse-csv": "bin/index.js"
+  },
+  "repository": "git@github.com:theonejonahgold/csv-parser.git",
+  "author": "Jonah Meijers <jonahmeijers97@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.10",
+    "@types/ramda": "^0.27.29",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "newline": "^0.0.3",
+    "parse-cmd-args": "^3.0.0",
+    "ramda": "^0.27.1"
+  }
+}
